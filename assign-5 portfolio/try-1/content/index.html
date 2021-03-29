@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    * ,p {
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        
+    }
+    .main-content::before{
+        content: "";
+        background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+        position: relative;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.5;
+        /* filter: blur(3px); */
+
+
+    }
+
+    .main-content{
+        
+        background-color: black;
+        /* overflow: hidden; */
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+    .social-media{
+        display: inline-flex;
+        /* border: 5px solid aqua; */
+        color: white;
+        font-size:min(7vw,7vh);
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        z-index: 3;
+    }
+    .platforms {
+        padding: 1rem;
+        width: min(5vh,5vw);
+        height:min(5vh,5vw);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #instagram{
+        background-color: #f0778c;
+    }
+    #facebook{
+        background-color: blue;
+    }
+    #github{
+        background-color: black;
+    }
+    #twitter{
+        background-color: rgb(76 169 200);
+    }
+
+    .space{
+        height: 1000px;
+    }
+
+</style>
+<body>
+    
+    <header>    
+
+        
+                <div class="main-content">
+
+                    <!-- <video src="bg.mp4" id="bg-video" autoplay loop muted playbackRate =1> </video> -->
+                    <div class="main-text-content">
+                        <p class = "typewriter">Hello . </p>
+                        <p class = "typewriter">I am Vaibhav Jain</p>
+                        <p class = "typewriter">A techie  </p>
+                        <p class = "typewriter">Musicholic </p>
+                        <p class = "typewriter">And a travel bandaid</p>
+                    </div>
+                    
+                    <div class="right-diagrams">
+
+
+                        
+                    </div>
+
+                </div>
+
+        
+    </header>
+
+    <div class="social-media">
+        <div class="platforms" id = "instagram">
+            <i class="fab fa-instagram"></i>
+
+        </div>
+        <div class="platforms" id = "facebook">
+            <i class="fab fa-facebook-f"></i>
+
+        </div>
+        <div class="platforms" id = "github">
+            <i class="fab fa-github"></i>
+        </div>
+        <div class="platforms" id = "twitter">
+            <i class="fab fa-twitter-square"></i>
+        </div>
+
+    </div>
+
+        <div class="space">
+
+        </div>
+
+
+</body>
+</html>

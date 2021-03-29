@@ -1,0 +1,4 @@
+idea of circular box converting to sqare - http://ejosue.com/
+background blurred moving cards : https://webkit.org/blog-files/3d-transforms/morphing-cubes.html
+the eye design : https://www.seanhalpin.design/
+http://heathershaw.com/

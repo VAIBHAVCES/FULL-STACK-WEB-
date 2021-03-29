@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List</title>
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        display: flex;
+        display: flex;
+        align-items: center;
+        /* justify-items: center; */
+        justify-content: center;
+    }
+    section{
+        padding: 3rem;
+        background-color: bisque;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section  h1{
+        margin: 2rem;
+    }
+    ul{
+        list-style: none;
+        width: 100%;
+    }
+    li{
+        border: 2px solid red;
+        width: 100%;
+        padding: 1rem;
+        margin: 1%;
+    }
+    .content h3 {
+        margin: 0rem 1rem 1rem 0rem;
+        
+    }
+    .task-header{
+        display: flex;
+        position: relative;
+        
+    }
+
+    .createdOn{
+        font-size: 13px;
+    }
+    .options{
+        
+        position: absolute;
+        right: 0px;
+    }
+    .options i{
+        padding: 0px 11px;
+    }
+    .newTaskHeader{
+        width: 90%;
+        margin: 0rem 0rem 1rem 0rem;
+    }
+    .taskBody{
+        font-size: 20px;
+    }
+    .newtaskDetail{
+        width: 90%;
+        height: 100px;
+        resize: none;
+
+    }
+</style>
+<body>
+
+    <section>
+
+
+        <h1>Todo List </h1>
+        <div class="menuBar">
+            <button id="createTask">Create New Task</button>
+        </div>
+
+        <ul id = "allTasks">
+            <!-- <li>
+                <div class="content">
+                    <header class= "task-header">
+                        <h3>Complete assignement</h3>
+                        
+                        <div class="options">
+
+                            <i class="far fa-trash-alt"></i>
+                            <i class="fas fa-window-minimize"></i>
+                        </div>
+                    </header>
+                    <span class="createdOn">
+
+                    </span>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, architecto atque impedit, quia aliquid nobis magnam optio, accusantium eligendi ipsa veritatis vel nihil deserunt ab nisi! Dolorum quo animi molestias voluptatibus quis. Sit enim saepe rerum consequuntur consequatur quo quia?</span>
+
+                    
+
+                </div>
+            </li> -->
+           
+            <!-- <li>
+                <div class="content">
+                    <h3>Test on 6th Nove</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, architecto atque impedit, quia aliquid nobis magnam optio, accusantium eligendi ipsa veritatis vel nihil deserunt ab nisi! Dolorum quo animi molestias voluptatibus quis. Sit enim saepe rerum consequuntur consequatur quo quia?</span>
+                </div>
+
+            </li> -->
+            <!-- <li> <div class="content">
+                <h3> Wash Clothes</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, architecto atque impedit, quia aliquid nobis magnam optio, accusantium eligendi ipsa veritatis vel nihil deserunt ab nisi! Dolorum quo animi molestias voluptatibus quis. Sit enim saepe rerum consequuntur consequatur quo quia?</span>
+            </div></li> -->
+
+            <!-- <li>
+                <div class="newTask">
+
+                    <input type="text" name="" class="newTaskHeader" placeholder="Enter the task header" >
+
+                   
+                    <textarea  placeholder="Enter text here..." class = "newtaskDetail"></textarea>
+                    <br>
+
+                    <button class = "saveTask">Save </button>
+                </div>
+            </li> -->
+        </ul>
+
+    </section>
+    
+
+</body>
+<script src="script.js"></script>
+</html>
+
+
